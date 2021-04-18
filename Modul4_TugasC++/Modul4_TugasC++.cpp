@@ -19,7 +19,19 @@ public:
     }
 };
 int main() {
-    
+    int main() {
+    nama myObj;
+    myObj.anggota();
+
+    int jumlah, pilih{}, total{}, harga{};
+    int h_indomie, h_teh, h_roti, h_rokok;
+    h_indomie = 3000;
+    h_teh = 3500;
+    h_roti = 4500;
+    h_rokok = 20000;
+    cout << "\n\n\t =============================\n";
+    cout << "\t  SELAMAT DATANG DI INDOMEI \n";
+    cout << "\t =============================\n\n";
 
 
 
