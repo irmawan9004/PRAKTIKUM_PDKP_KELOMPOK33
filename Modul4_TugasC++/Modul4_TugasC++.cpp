@@ -19,7 +19,6 @@ public:
     }
 };
 int main() {
-    int main() {
     nama myObj;
     myObj.anggota();
 
