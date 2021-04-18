@@ -26,7 +26,19 @@ int main() {
 }
 
 int footer(int total)
-{
+{    int bayar, kembali;
+    cout << "Total belanja anda adalah Rp." << total << endl;
+    cout << "Masukkan nominal pembayaran : ";
+    cin >> bayar;
+    while (bayar<total)
+    {
+        cout << "\n Maaf, uang anda kurang \n\n";
+            cout << "Masukkan nominal pembayaran : ";
+        cin >> bayar;
+    }
+    kembali = bayar - total;
+    cout << "\nKembalian anda : Rp " << kembali << endl;
+    return 0;
 
 
 }
